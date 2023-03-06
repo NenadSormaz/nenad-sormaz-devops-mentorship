@@ -9,23 +9,23 @@
 > done  
 
 ### test1b
-> #!/bin/bash
-> #testing the for variable after the looping
-> for test in Alabama Alaska Arizona Arkansas California Colorado
-> do
-> echo "The next state is $test"
-> done
-> echo "The last state we visited was $test"
-> test=Connecticut
-> echo "Wait, now we're visiting $test"
+> #!/bin/bash  
+> #testing the for variable after the looping  
+> for test in Alabama Alaska Arizona Arkansas California Colorado  
+> do  
+> echo "The next state is $test"  
+> done  
+> echo "The last state we visited was $test"  
+> test=Connecticut  
+> echo "Wait, now we're visiting $test"  
 
 ### badtest1
-> #!/bin/bash/
-> #another example of how not to use the for command
-> for test in I don't know if this'll work
-> do
-> echo "word:$test"
-> done
+> #!/bin/bash/  
+> #another example of how not to use the for command  
+> for test in I don't know if this'll work  
+> do  
+> echo "word:$test"  
+> done  
 
 ### 
 
