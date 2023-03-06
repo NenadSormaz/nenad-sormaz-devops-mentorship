@@ -7,6 +7,7 @@
 > do  
 > echo The next state is $test  
 > done  
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test1.png?raw=true)  
 
 ### test1b
 > #!/bin/bash  
@@ -18,6 +19,7 @@
 > echo "The last state we visited was $test"  
 > test=Connecticut  
 > echo "Wait, now we're visiting $test"  
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test1b.png?raw=true)  
 
 ### badtest1
 > #!/bin/bash/  
@@ -26,6 +28,7 @@
 > do  
 > echo "word:$test"  
 > done  
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/badtest1.png?raw=true)  
 
 ### test2
 > #!/bin/bash/  
@@ -34,6 +37,7 @@
 > do  
 > echo "word:$test"  
 > done  
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test2.png?raw=true)  
 
 ### badtest2
 > #!/bin/bash/  
@@ -42,6 +46,7 @@
 > do  
 > echo "Now going to $test"  
 > done  
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/badtest2.png?raw=true)  
 
 ### test3
 > #!/bin/bash/  
@@ -50,6 +55,20 @@
 > do  
 > echo "Now going to $test"  
 > done  
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test3.png?raw=true)  
+
+### test4
+> #!/bin/bash/  
+> #using a variable to hold the list  
+> list="Alabama Alaska Arizona Arkansas Colorado"  
+> list=$list" Connecticut"  
+> for state in $list  
+> do  
+> echo "Have you ever visited $state?"  
+> done 
+!(https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test4.png?raw=true)  
+
+### 
 
 
 
