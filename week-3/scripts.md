@@ -27,7 +27,33 @@
 > echo "word:$test"  
 > done  
 
-### 
+### test2
+> #!/bin/bash/  
+> #another example of how not to use for command  
+> for test in I don\'t know if "this'll" work  
+> do  
+> echo "word:$test"  
+> done  
+
+### badtest2
+> #!/bin/bash/  
+> #another example of how not to use the for command  
+> for test in Nevada New Hampshire New Mexico New York North Carolina  
+> do  
+> echo "Now going to $test"  
+> done  
+
+### test3
+> #!/bin/bash/  
+> #an example of how to properly define values  
+> for test in Nevada "New Hampshire" "New Mexico" "New York"  
+> do  
+> echo "Now going to $test"  
+> done  
+
+
+
+
 
 
 
