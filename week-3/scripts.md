@@ -78,7 +78,7 @@
 > echo "Visit beautiful $state"  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test5.png?raw=true)  
 
 ### test5b
 > #!/bin/bash/  
@@ -90,7 +90,45 @@
 > echo "Visit beautiful $state"  
 > done  
 
-![]()
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test5b.png?raw=true)  
+
+### test6
+> #!/bin/bash/  
+> #iterate through all the files in a directory  
+> for file in /home/centos/*  
+> do  
+> if [ -d "$file" ]  
+> then  
+> echo "$file is a directory"  
+> elif [ -f "$file" ]  
+> then  
+> echo "$file is a file"  
+> fi  
+> done  
+
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test6.png?raw=true)  
+
+### test7  
+> #!/bin/bash/  
+> #iterating through multiple directiories  
+> for file in /home/centos/* /home/centos/week--3/*  
+> do  
+> if [ -d "$file" ]  
+> then  
+> echo "$file is a directory"  
+> elif [ -f "$file" ]  
+> then  
+> echo "$file is a file"  
+> else  
+> echo "$file doesn't exist"  
+> fi  
+> done  
+
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test7.png?raw=true)  
+
+### 
+
+
 
 
 
