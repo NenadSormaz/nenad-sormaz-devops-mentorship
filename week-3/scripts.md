@@ -7,7 +7,7 @@
 > do  
 > echo The next state is $test  
 > done  
-![](./week-3/screenshots/test1.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test1.png?raw=true)  
 
 ### test1b
 > #!/bin/bash  
@@ -19,7 +19,7 @@
 > echo "The last state we visited was $test"  
 > test=Connecticut  
 > echo "Wait, now we're visiting $test"  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test1b.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test1b.png?raw=true)  
 
 ### badtest1
 > #!/bin/bash/  
@@ -28,7 +28,8 @@
 > do  
 > echo "word:$test"  
 > done  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/badtest1.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/badtest1.png?raw=true
+)  
 
 ### test2
 > #!/bin/bash/  
@@ -37,7 +38,7 @@
 > do  
 > echo "word:$test"  
 > done  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test2.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test2.png?raw=true)  
 
 ### badtest2
 > #!/bin/bash/  
@@ -46,7 +47,7 @@
 > do  
 > echo "Now going to $test"  
 > done  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/badtest2.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/badtest2.png?raw=true)  
 
 ### test3
 > #!/bin/bash/  
@@ -55,7 +56,7 @@
 > do  
 > echo "Now going to $test"  
 > done  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test3.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test3.png?raw=true)  
 
 ### test4
 > #!/bin/bash/  
@@ -66,7 +67,7 @@
 > do  
 > echo "Have you ever visited $state?"  
 > done  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test4.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test4.png?raw=true)  
 
 ### test5
 > #prethodno je potrebno kreirati states fajl  
@@ -78,7 +79,7 @@
 > echo "Visit beautiful $state"  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test5.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test5.png?raw=true)  
 
 ### test5b
 > #!/bin/bash/  
@@ -90,7 +91,7 @@
 > echo "Visit beautiful $state"  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test5b.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test5b.png?raw=true)  
 
 ### test6
 > #!/bin/bash/  
@@ -106,7 +107,7 @@
 > fi  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test6.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test6.png?raw=true)  
 
 ### test7  
 > #!/bin/bash/  
@@ -124,7 +125,7 @@
 > fi  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test7.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test7.png?raw=true)  
 
 ### test8  
 > #!/bin/bash/  
@@ -134,7 +135,7 @@
 > echo "The next number is $i"  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test8.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test8.png?raw=true)  
 
 ### test9  
 > #!/bin/bash/  
@@ -144,7 +145,7 @@
 > echo "$a-$b"  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test9.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test9.png?raw=true)  
 
 ### test10  
 > #!/bin/bash/  
@@ -156,7 +157,7 @@
 > var1=$[ $var1 - 1 ]  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test10.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test10.png?raw=true)  
 
 ### test11
 > #!/bin/bash/  
@@ -169,7 +170,7 @@
 > var1=$[ $var1 - 1 ]  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test11.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test11.png?raw=true)  
 
 ### test12
 > #!/bin/bash/  
@@ -181,7 +182,7 @@
 > var1=$[ $var1 - 25 ]  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test12.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test12.png?raw=true)  
 
 ### test13
 > #!/bin/bash/  
@@ -194,7 +195,7 @@
 > var1=$[ $var1 - 25 ]  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test13.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test13.png?raw=true)  
 
 ### test14
 > #!/bin/bash/  
@@ -208,7 +209,7 @@
 > done  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test14.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test14.png?raw=true)  
 
 ### test15
 > #!/bin/bash/  
@@ -225,7 +226,7 @@
 > var1=$[ $var1 - 1 ]  
 > done
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test15.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test15.png?raw=true)  
 
 ### test16  
 > #!/bin/bash/  
@@ -244,7 +245,7 @@
 > var1=$[ $var1 - 1 ]  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test16.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test16.png?raw=true)  
 
 ### test17
 > #!/bin/bash/  
@@ -259,7 +260,7 @@
 > done  
 > echo "The for loop is completed"  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test17.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test17.png?raw=true)  
 
 ### test18  
 > #!/bin/bash/  
@@ -276,7 +277,7 @@
 > done  
 > echo "The while loop is completed"  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test18.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test18.png?raw=true)  
 
 ### test19  
 > #!/bin/bash/  
@@ -294,7 +295,7 @@
 > done  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test19.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test19.png?raw=true)  
 
 ### test20  
 > #!/bin/bash/  
@@ -312,7 +313,7 @@
 > done  
 > done
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test20.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test20.png?raw=true)  
 
 ### test21  
 > #!/bin/bash/  
@@ -326,7 +327,7 @@
 > echo "Iteration number: $var1"  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test21.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test21.png?raw=true)  
 
 ### badtest3  
 > #!/bin/bash/  
@@ -343,7 +344,7 @@
 > var1=$[ $var1 + 1 ]  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/badtest3.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/badtest3.png?raw=true)  
 
 ### test22  
 > #!/bin/bash/  
@@ -362,7 +363,7 @@
 > done  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test22.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test22.png?raw=true)  
 
 ### test23  
 > #!/bin/bash/  
@@ -373,7 +374,7 @@
 > done > test23.txt  
 > echo "The command is finished."  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test23.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test23.png?raw=true)  
 
 ### test24  
 > #!/bin/bash/  
@@ -384,7 +385,7 @@
 > done | sort  
 > echo "This completes our travels"  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test24.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test24.png?raw=true)  
 
 ### test25  
 > #!/bin/bash/  
@@ -402,7 +403,7 @@
 > done  
 > done  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test25.png?raw=true)  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test25.png?raw=true)  
 
 ### test26  
 > #!/bin/bash/  
@@ -414,7 +415,7 @@
 > useradd -c "$name" -m $userid  
 > done < "$input"  
 
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test26.png?raw=true)   
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test26.png?raw=true)   
 
 # Chapter 14  
 
