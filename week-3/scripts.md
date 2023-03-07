@@ -244,7 +244,7 @@
 > var1=$[ $var1 - 1 ]  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test16.png?raw=true)  
 
 ### test17
 > #!/bin/bash/  
@@ -259,7 +259,7 @@
 > done  
 > echo "The for loop is completed"  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test17.png?raw=true)  
 
 ### test18  
 > #!/bin/bash/  
@@ -276,7 +276,7 @@
 > done  
 > echo "The while loop is completed"  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test18.png?raw=true)  
 
 ### test19  
 > #!/bin/bash/  
@@ -294,7 +294,7 @@
 > done  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test19.png?raw=true)  
 
 ### test20  
 > #!/bin/bash/  
@@ -312,7 +312,7 @@
 > done  
 > done
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test20.png?raw=true)  
 
 ### test21  
 > #!/bin/bash/  
@@ -326,7 +326,7 @@
 > echo "Iteration number: $var1"  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test21.png?raw=true)  
 
 ### badtest3  
 > #!/bin/bash/  
@@ -343,8 +343,7 @@
 > var1=$[ $var1 + 1 ]  
 > done  
 
-![]()  
-
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/badtest3.png?raw=true)  
 
 ### test22  
 > #!/bin/bash/  
@@ -363,7 +362,7 @@
 > done  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test22.png?raw=true)  
 
 ### test23  
 > #!/bin/bash/  
@@ -374,7 +373,7 @@
 > done > test23.txt  
 > echo "The command is finished."  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test23.png?raw=true)  
 
 ### test24  
 > #!/bin/bash/  
@@ -385,7 +384,7 @@
 > done | sort  
 > echo "This completes our travels"  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test24.png?raw=true)  
 
 ### test25  
 > #!/bin/bash/  
@@ -403,7 +402,7 @@
 > done  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test25.png?raw=true)  
 
 ### test26  
 > #!/bin/bash/  
@@ -415,7 +414,7 @@
 > useradd -c "$name" -m $userid  
 > done < "$input"  
 
-![]()   
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test26.png?raw=true)   
 
 # Chapter 14  
 
