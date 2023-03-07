@@ -134,7 +134,7 @@
 > echo "The next number is $i"  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test8.png?raw=true)  
 
 ### test9  
 > #!/bin/bash/  
@@ -144,7 +144,7 @@
 > echo "$a-$b"  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test9.png?raw=true)  
 
 ### test10  
 > #!/bin/bash/  
@@ -156,7 +156,7 @@
 > var1=$[ $var1 - 1 ]  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test10.png?raw=true)  
 
 ### test11
 > #!/bin/bash/  
@@ -169,7 +169,7 @@
 > var1=$[ $var1 - 1 ]  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test11.png?raw=true)  
 
 ### test12
 > #!/bin/bash/  
@@ -181,7 +181,7 @@
 > var1=$[ $var1 - 25 ]  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test12.png?raw=true)  
 
 ### test13
 > #!/bin/bash/  
@@ -194,7 +194,7 @@
 > var1=$[ $var1 - 25 ]  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test13.png?raw=true)  
 
 ### test14
 > #!/bin/bash/  
@@ -208,7 +208,7 @@
 > done  
 > done  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test14.png?raw=true)  
 
 ### test15
 > #!/bin/bash/  
@@ -225,7 +225,7 @@
 > var1=$[ $var1 - 1 ]  
 > done
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test15.png?raw=true)  
 
 ### test16
 
