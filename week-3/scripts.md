@@ -126,7 +126,114 @@
 
 ![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test7.png?raw=true)  
 
-### 
+### test8  
+> #!/bin/bash/  
+> #testing the C-style for loop  
+> for ((i=1; i<=10; i++))  
+> do  
+> echo "The next number is $i"  
+> done  
+
+![]()  
+
+### test9  
+> #!/bin/bash/  
+> #multiple variables  
+> for ((a=1, b=10; a <=10; a++, b--))  
+> do  
+> echo "$a-$b"  
+> done  
+
+![]()  
+
+### test10  
+> #!/bin/bash/  
+> #while command test  
+> var1=10  
+> while [ $var1 -gt 0 ]  
+> do  
+> echo $var1  
+> var1=$[ $var1 - 1 ]  
+> done  
+
+![]()  
+
+### test11
+> #!/bin/bash/  
+> #testing a multicommand while loop  
+> var1=10  
+> while echo $var1  
+> [ $var1 -ge 0 ]  
+> do  
+> echo "This is inside the loop"  
+> var1=$[ $var1 - 1 ]  
+> done  
+
+![]()  
+
+### test12
+> #!/bin/bash/  
+> #using the until command  
+> var1=100  
+> until [ $var1 -eq 0 ]  
+> do  
+> echo $var1  
+> var1=$[ $var1 - 25 ]  
+> done  
+
+![]()  
+
+### test13
+> #!/bin/bash/  
+> #using the until command  
+> var1=100  
+> until echo $var1  
+> [ $var1 -eq 0 ]  
+> do  
+> echo Inside the loop: $var1  
+> var1=$[ $var1 - 25 ]  
+> done  
+
+![]()  
+
+### test14
+> #!/bin/bash/  
+> #nesting for loops  
+> for (( a=1; a<=3; a++ ))  
+> do  
+> echo "Starting loop $a:"  
+> for (( b=1; b<=3; b++ ))  
+> do  
+> echo "	Inside loop: $b"  
+> done  
+> done  
+
+![]()  
+
+### test15
+> #!/bin/bash/  
+> #placing a for loop inside a while loop  
+> var1=5  
+> while [ $var1 -ge 0 ]  
+> do  
+> echo "Outer loop: $var1"  
+> for (( var2 = 1; $var2 < 3; var2++ ))  
+> do  
+> var3=$[ $var1 * $var2 ]  
+> echo "	Inner loop: $var1 * $var2 = $var3"  
+> done  
+> var1=$[ $var1 - 1 ]  
+> done
+
+![]()  
+
+### test16
+
+
+
+
+
+
 
 
 
