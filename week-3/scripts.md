@@ -7,7 +7,7 @@
 > do  
 > echo The next state is $test  
 > done  
-![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test1.png?raw=true)  
+![](./week-3/screenshots/test1.png?raw=true)  
 
 ### test1b
 > #!/bin/bash  
