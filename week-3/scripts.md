@@ -227,22 +227,195 @@
 
 ![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/week-3-branch/week-3/screenshots/test15.png?raw=true)  
 
-### test16
+### test16  
+> #!/bin/bash/  
+> #using until and while loops  
+> var1=3  
+> until [ $var1 -eq 0 ]  
+> do  
+> echo "Outer loop: $var1"  
+> var2=1  
+> while [ $var2 -lt 5 ]  
+> do  
+> var3=$(echo "scale=4; $var1 / $var2" | bc )  
+> echo "	Inner loop: $var1 / $var2 = $var3"  
+> var2=$[ $var2 + 1 ]  
+> done  
+> var1=$[ $var1 - 1 ]  
+> done  
+
+![]()  
+
+### test17
+> #!/bin/bash/  
+> #breaking out of a for loop  
+> for var1 in 1 2 3 4 5 6 7 8 9 10  
+> do  
+> if [ $var1 -eq 5 ]  
+> then  
+> break  
+> fi  
+> echo "Iteration number: $var1"  
+> done  
+> echo "The for loop is completed"  
+
+![]()  
+
+### test18  
+> #!/bin/bash/  
+> #breaking out of a while loop  
+> var1=1  
+> while [ $var1 -lt 10 ]  
+> do  
+> if [ $var1 -eq 5 ]  
+> then  
+> break  
+> fi  
+> echo "Iteration: $var1"  
+> var1=$[ $var1 + 1 ]  
+> done  
+> echo "The while loop is completed"  
+
+![]()  
+
+### test19  
+> #!/bin/bash/  
+> #breaking out of an inner loop  
+> for (( a=1; a<4; a++ ))  
+> do  
+> echo "Outer loop: $a"  
+> for (( b=1; b<100; b++ ))  
+> do  
+> if [ $b -eq 5 ]  
+> then  
+> break  
+> fi  
+> echo "	Inner loop: $b"  
+> done  
+> done  
+
+![]()  
+
+### test20  
+> #!/bin/bash/  
+> #breaking out of an outer loop  
+> for (( a=1; a<4; a++ ))  
+> do  
+> echo "Outer loop: $a"  
+> for (( b=1; b<100; b++ ))  
+> do  
+> if [ $b -gt 4 ]  
+> then   
+> break 2  
+> fi  
+> echo "	Inner loop: $b"  
+> done  
+> done
+
+![]()  
+
+### test21  
+> #!/bin/bash/  
+> #using the continue command  
+> for (( var1=1; var1<15; var1++ ))  
+> do  
+> if [ $var1 -gt 5 ] && [ $var1 -lt 10 ]  
+> then  
+> continue  
+> fi  
+> echo "Iteration number: $var1"  
+> done  
+
+![]()  
+
+### badtest3  
+> #!/bin/bash/  
+> #improperly using the continue command in a while loop  
+> var1=0  
+> while echo "while iteration: $var1"  
+> [ $var1 -lt 15 ]  
+> do  
+> if [ $var1 -gt 5 ] && [ $var1 -lt 10 ]  
+> then  
+> continue  
+> fi  
+> echo "	Inside iteration number: $var1"  
+> var1=$[ $var1 + 1 ]  
+> done  
+
+![]()  
 
 
+### test22  
+> #!/bin/bash/  
+> #continuing an outer loop  
+> for (( a=1; a<=5; a++ ))  
+> do  
+> echo "Iteration $a:"  
+> for (( b=1; b<3; b++ ))  
+> do  
+> if [ $a -gt 2 ] && [ $a -lt 4 ]  
+> then  
+> continue 2  
+> fi  
+> var3=$[ $a * $b ]  
+> echo "	The result of $a * $b is $var3"  
+> done  
+> done  
 
+![]()  
 
+### test23  
+> #!/bin/bash/  
+> #redirecting the for output to a file  
+> for (( a=1; a<10; a++ ))  
+> do  
+> echo "The number is $a"  
+> done > test23.txt  
+> echo "The command is finished."  
 
+![]()  
 
+### test24  
+> #!/bin/bash/  
+> #piping a loop to another command  
+> for state in "North Dakota" Connecticut Illinois Alabama Tennessee  
+> do  
+> echo "$state is the next place to go"  
+> done | sort  
+> echo "This completes our travels"  
 
+![]()  
 
+### test25  
+> #!/bin/bash/  
+> #finding files in the PATH  
+> IFS=:  
+> for folder in $PATH  
+> do  
+> echo "$folder:"  
+> for file in $folder/*  
+> do  
+> if [ -x $file ]  
+> then  
+> echo "	$file"  
+> fi  
+> done  
+> done  
 
+![]()  
 
+### test26  
+> #!/bin/bash/  
+> #process new user accounts  
+> input="users.csv"  
+> while IFS=',' read -r userid name  
+> do  
+> echo "adding $userid"  
+> useradd -c "$name" -m $userid  
+> done < "$input"  
 
-
-
-
-
+![]()   
 
 # Chapter 14  
 
