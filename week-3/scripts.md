@@ -1,4 +1,5 @@
 # Chapter 13  
+
 ### test1  
 > [centos@ip-172-31-34-106 week--3]$ cat test1.sh   
 > #!/bin/bash  
@@ -418,6 +419,134 @@
 ![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/test26.png?raw=true)   
 
 # Chapter 14  
+
+### test1
+> #!/bin/bash/  
+> #using one command line parameter  
+> #  
+> factorial=1  
+> for (( number = 1; number <= $1 ; number++ ))  
+> do  
+> factorial=$[ $factorial * $number ]  
+> done  
+> echo The factorial of $1 is $factorial  
+
+![]()  
+
+### test2
+> #!/bin/bash/  
+> #testing two command line parameters  
+> #  
+> total=$[ $1 * $2 ]  
+> echo The first parameter is $1.  
+> echo The second parameter is $2.  
+> echo The total value is $total.  
+
+![]()  
+
+### test3
+> #!/bin/bash/  
+> #testing string parameters  
+> #  
+> echo Hello $1, glad to meet you.  
+
+![]()  
+
+### test4
+> #!/bin/bash/  
+> #handling lots of parameters   
+> #  
+> total=$[ ${10} * ${11} ]  
+> echo The tenth parameter is ${10}  
+> echo The eleventh parameter is ${11}  
+> echo The total is $total
+
+![]()  
+
+### test5
+> #!/bin/bash/  
+> #Testing the $0 parameter  
+> #  
+> echo The zero parameter is set to: $0  
+> #  
+
+![]()  
+
+### test5b
+> #!/bin/bash/  
+> #Using basename with the $0 parameter  
+> #  
+> name=$(basename $0)  
+> echo  
+> echo The script name is: $name  
+> #
+
+![]()  
+
+### test6  
+> #!/bin/bash/  
+> #Testing a Multi-function script  
+> #  
+> name=$(basename $0)  
+> #  
+> if [ $name = "addem" ]  
+> then  
+> total=$[ $1 + $2 ]  
+> #  
+> elif [ $name = "multem" ]  
+> then  
+> total=$[ $1 * $2 ]  
+> fi  
+> #  
+> echo  
+> echo The calculated value is $total  
+> #  
+
+![]()  
+
+### test7  
+> #!/bin/bash/  
+> #testing parameters before use  
+> #  
+> if [ -n "$1" ]  
+> then  
+> echo Hello $1, glad to meet you.  
+> else  
+> echo "Sorry, you did not identify yourself. "  
+> fi  
+
+![]()  
+
+### test8  
+> #!/bin/bash/  
+> #getting the number of parameters  
+> #  
+> echo There were $# parameters supplied.  
+
+![]()  
+
+### test9  
+> #!/bin/bash/  
+> #Testing parameters  
+> #  
+> if [ $# -ne 2 ]  
+> then  
+> echo  
+> echo Usage: test9.sh a b  
+> echo  
+> else  
+> total=$[ $1 + $2 ]  
+> echo  
+> echo The total is $total  
+> echo  
+> fi  
+
+![]()
+
+
+
+
+
 
 # Chapter 15  
 
