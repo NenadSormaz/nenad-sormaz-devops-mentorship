@@ -431,7 +431,7 @@
 > done  
 > echo The factorial of $1 is $factorial  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test1.png?raw=true)  
 
 ### test2
 > #!/bin/bash/  
@@ -442,7 +442,7 @@
 > echo The second parameter is $2.  
 > echo The total value is $total.  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test2.png?raw=true)  
 
 ### test3
 > #!/bin/bash/  
@@ -450,7 +450,7 @@
 > #  
 > echo Hello $1, glad to meet you.  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test3.png?raw=true)  
 
 ### test4
 > #!/bin/bash/  
@@ -461,7 +461,7 @@
 > echo The eleventh parameter is ${11}  
 > echo The total is $total
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test4.png?raw=true)  
 
 ### test5
 > #!/bin/bash/  
@@ -470,7 +470,7 @@
 > echo The zero parameter is set to: $0  
 > #  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test5.png?raw=true)  
 
 ### test5b
 > #!/bin/bash/  
@@ -481,7 +481,7 @@
 > echo The script name is: $name  
 > #
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test5b.png?raw=true)  
 
 ### test6  
 > #!/bin/bash/  
@@ -502,7 +502,7 @@
 > echo The calculated value is $total  
 > #  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test6.png?raw=true)  
 
 ### test7  
 > #!/bin/bash/  
@@ -515,7 +515,7 @@
 > echo "Sorry, you did not identify yourself. "  
 > fi  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test7.png?raw=true)  
 
 ### test8  
 > #!/bin/bash/  
@@ -523,7 +523,7 @@
 > #  
 > echo There were $# parameters supplied.  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test8.png?raw=true)  
 
 ### test9  
 > #!/bin/bash/  
@@ -541,13 +541,13 @@
 > echo  
 > fi  
 
-![]()
-
-
-
-
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/main/week-3/screenshots/screenshots-chapter14/test9.png?raw=true)
 
 
 # Chapter 15  
 
+> TBD  
+
 # Chapter 16  
+
+> TBD  
