@@ -44,4 +44,6 @@ Nakon unesene komande u konzolu sam unio sljedece podatke:
 
 ### - Importovan Lets Encrypt SSL certifikat unutar AWS Certified Managera
 
-![]()
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/importedCert.png?raw=true)
+
+### - Kreiran AMI image pod nazivom `ec2-nenad-sormaz-task-8`; terminirani resurse koje sam koristio za izradu taska.
