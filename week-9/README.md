@@ -29,7 +29,7 @@ Nakon unesene komande u konzolu sam unio sljedece podatke:
 
 #### Pracene instrukcije sa `https://github.com/allops-solutions/devops-aws-mentorship-program/blob/main/devops-learning-path/ssl.md` i sa Office Hours video snimka.  
 
-![]()  
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/certificatge.png?raw=true)  
 
 ### - Omogucen autorenewal SSL certifikata uz pomoc skripte:
 
