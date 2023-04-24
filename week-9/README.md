@@ -17,7 +17,7 @@ Nakon unesene komande u konzolu sam unio sljedece podatke:
 
 ![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/DNS.png?raw=true)   
 
-### -  Ispisan Name i Value DNS-a uz pomoc komande aws route53 list-hosted-zones i alata jq gdje cete prikazati samo Name i Value za DNS record koji ste vi kreirali odnosno za vase domensko ime.  
+### - Ispisan Name i Value DNS-a uz pomoc komande aws route53 list-hosted-zones i alata jq gdje cete prikazati samo Name i Value za DNS record koji ste vi kreirali odnosno za vase domensko ime.  
 
 #### Koristena komanda:  
 - `aws route53 list-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK | jq '.ResourceRecordSets[] | select(.Name == "nenad--sormaz.awsbosnia.com.") | {Name, Value}'`  
@@ -25,4 +25,19 @@ Nakon unesene komande u konzolu sam unio sljedece podatke:
 ![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/DNS2.png?raw=true)  
 
 
-### - 
+### - Na instanci `ec2-nenad-sormaz-task-8` kreiran je Let's Encrypt SSL certifikat za moj domen. Omoguceno je da se nodejs aplikaciji moze pristupiti preko linka: `https://nenad--sormaz.awsbosnia.com`.
+
+#### Pracene instrukcije sa `https://github.com/allops-solutions/devops-aws-mentorship-program/blob/main/devops-learning-path/ssl.md` i sa Office Hours video snimka.  
+
+![]()  
+
+### - Omogucen autorenewal SSL certifikata uz pomoc skripte:
+
+#### `SLEEPTIME=$(awk 'BEGIN{srand(); print int(rand()*(3600+1))}'); echo "0 0,12 * * * root sleep $SLEEPTIME && certbot renew -q" | sudo tee -a /etc/crontab > /dev/null`
+
+### - Koristeci openssl komande prikazao sam koji SSL certitikat koristim kao i datum njegovog isteka:  
+
+#### Koristene komande:  
+
+- `openssl s_client -showcerts -connect nenad--sormaz.awsbosnia.com:443`  
+- `openssl s_client -showcerts -connect nenad--sormaz.awsbosnia.com:443 2>/dev/null | openssl x509 -noout -text`  
