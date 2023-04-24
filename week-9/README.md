@@ -2,7 +2,7 @@
    
 ## - Od AMI image `ami-asg-ec2-web-server` napravljena je nova EC2 instancu `ec2-nenad-sormaz-task-8`  
 
-## - Kreiran je DNS record nenad-sormaz.awsbosnia.com za Hosted Zone awsbosnia.com koji pokazuje na EC2 instancu `ec2-nenad-sormaz-task-8`. 
+## - Kreiran je DNS record `nenad--sormaz.awsbosnia.com` za Hosted Zone awsbosnia.com koji pokazuje na EC2 instancu `ec2-nenad-sormaz-task-8`. 
 
 #### Koristene komande:
 - `aws configure --profile aws-bosnia`  
@@ -14,9 +14,12 @@ Nakon unesene komande u konzolu sam unio sljedece podatke:
 - `export AWS_PROFILE=aws-bosnia`  
 - `aws configure list`  
 - `aws route53 change-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK --change-batch '{"Changes":[{"Action":"CREATE","ResourceRecordSet":{"Name":"nenad--sormaz.awsbosnia.com.","Type":"A","TTL":60,"ResourceRecords":[{"Value":"44.204.65.94"}]}}]}'`  
-- `aws route53 list-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK | jq '.ResourceRecordSets[] | select(.Name == "nenad--sormaz.awsbosnia.com.") | {Name, Value}'`
 
-![] staviti screenshot
-![] staviti screenshot
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/DNS.png?raw=true)   
+
+- `aws route53 list-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK | jq '.ResourceRecordSets[] | select(.Name == "nenad--sormaz.awsbosnia.com.") | {Name, Value}'`  
+
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/DNS2.png?raw=true)  
+
 
 ## - 
