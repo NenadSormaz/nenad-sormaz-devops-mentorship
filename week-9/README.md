@@ -46,4 +46,12 @@ Nakon unesene komande u konzolu sam unio sljedece podatke:
 
 ![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/importedCert.png?raw=true)
 
+### - Kreiran novi SSL certifikat unutar AWS Certified Managera
+
+- Komanda koju sam koristio:  
+
+`aws route53 change-resource-record-sets --hosted-zone-id Z3LHP8UIUC8CDK --change-batch '{"Changes":[{"Action":"CREATE","ResourceRecordSet":{"Name":"_7ea6b55087340d053b9eb8a916fabe99.nenad--sormaz.awsbosnia.com.","Type":"CNAME","TTL":60,"ResourceRecords":[{"Value":"_3717279c8970f3fb6cd1c2b1353e50ab.tctzzymbbs.acm-validations.aws."}]}}]}' --profile aws-bosnia`
+
+![](https://github.com/NenadSormaz/nenad-sormaz-devops-mentorship/blob/task-8/week-9/screenshots/certAWS.png?raw=true)  
+
 ### - Kreiran AMI image pod nazivom `ec2-nenad-sormaz-task-8`; terminirani resurse koje sam koristio za izradu taska.
